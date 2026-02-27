@@ -1,0 +1,64 @@
+{
+"boq": {
+  "legend": {
+      "arch": "architecture / structural surfaces & features (beams, columns, exposed trusses, steps, level changes, distinctive floor sections (if multiple types), ceiling features)",
+      "open": "openings (window, door, passage/arch)",
+      "fix": "fixed elements & joinery",
+      "appl": "appliances",
+      "furn": "furniture",
+      "dec": "decor",
+      "grp": "grouped clutter volumes",
+      "w_id": "wall_id",
+      "L": "length_in_meters",
+      "H": "ceiling_height_in_meters"
+    },
+  "space": { "corner_order": "CW",
+    "walls": [
+      { "id": "w1", "L": 1.9, "c0": "c0", "c1": "c1" },
+      { "id": "w2", "L": 2.9, "c0": "c1", "c1": "c2" },
+      { "id": "w3", "L": 1.7, "c0": "c2", "c1": "c3" },
+      { "id": "w4", "L": 4.3, "c0": "c3", "c1": "c4" },
+      { "id": "w5", "L": 2.6, "c0": "c4", "c1": "c5" },
+      { "id": "w6", "L": 1.4, "c0": "c5", "c1": "c6" },
+      { "id": "w7", "L": 6.2, "c0": "c6", "c1": "c0" }
+    ],
+    "corners": [
+      { "id": "c0" },
+      { "id": "c1" },
+      { "id": "c2" },
+      { "id": "c3" },
+      { "id": "c4" },
+      { "id": "c5" },
+      { "id": "c6" }
+    ],
+    "H": 2.7
+  },
+  "elems": [
+    { "cat": "arch", "w_id": null, "d": "Terracotta tiled floor" },
+    { "cat": "arch", "w_id": null, "d": "Ceiling fan" },
+    { "cat": "open", "w_id": "w6, w7", "d": "x2 black aluminium Door" },
+    { "cat": "open", "w_id": "w1, w4, w5, w7", "d": "x4 black aluminium windows" },
+    { "cat": "open", "w_id": "w4, w4, w7, w7", "d": "4x black wall sconces" },
+    { "cat": "open", "w_id": "w3", "d": "Countertop height archway" },
+    { "cat": "fix", "w_id": "w2", "d": "Dumbwaiter with wooden frame and metal doors" },
+    { "cat": "fix", "w_id": "w4", "d": "Wooden countertop with integrated sink and faucet" },
+    { "cat": "fix", "w_id": "w4", "d": "Wooden lower kitchen cabinets" },
+    { "cat": "fix", "w_id": "w3", "d": "Wall-mounted wooden upper cabinet" },
+    { "cat": "fix", "w_id": "w4", "d": "Wooden shelf above countertop" },
+    { "cat": "fix", "w_id": null, "d": "Clothesline string system anchored to walls" },
+    { "cat": "appl", "w_id": "w4", "d": "Washing machine" },
+    { "cat": "appl", "w_id": "w4", "d": "Dryer" },
+    { "cat": "appl", "w_id": "w4", "d": "Wall-mounted air conditioning unit" },
+    { "cat": "furn", "w_id": null, "d": "Large black oval dining table" },
+    { "cat": "furn", "w_id": null, "d": "8x Black metal dining chairs" },
+    { "cat": "furn", "w_id": null, "d": "Ironing board" },
+    { "cat": "dec", "w_id": "w7, w7", "d": "x2 Vintage Art Poster" },
+    { "cat": "grp", "w_id": null, "d": "Blue laundry basket" },
+  ],
+  "views": [
+    { "id": "v_1", "ref": "Reference_1.png" },
+    { "id": "v_2", "ref": "Reference_2.png" },
+    { "id": "v_3", "ref": "Reference_3.png" }
+  ]
+}
+}
